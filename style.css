@@ -12,8 +12,17 @@
     background-color: #F5F5F5;
     padding-left: 30px;
 }
+
 .barra-lateral img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.stacks-container {
+  display: flex;         /* ATENÇÃO: Ativa o Flexbox para alinhar os ícones */
+  flex-wrap: wrap;       /* Permite que os ícones quebrem para a linha de baixo se não couberem */
+  align-items: center;   /* Alinha os ícones verticalmente ao centro (útil se tiverem alturas diferentes) */
+  gap: 20px;             /* Cria um espaço de 20px ENTRE cada ícone. É a forma moderna de dar espaçamento */
+  margin-top: 10px;      /* Adiciona um pequeno espaço abaixo do título "Minhas Stacks" */
 }
