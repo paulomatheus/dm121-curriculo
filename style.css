@@ -1,10 +1,15 @@
 .container{
     display: flex;
 }
+
 .lateral{
     flex-basis: 25%;
     background-color: #FFB400;
     border-right: 10px solid #ddc07b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
 }
 
 .conteudo{
@@ -14,9 +19,16 @@
 }
 
 .lateral img {
-  width: 100%;
-  height: auto;
-  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+
+}
+
+.lateral div {
+  text-align: left
 }
 
 .stacks-container {
