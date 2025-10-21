@@ -2,6 +2,12 @@
     display: flex;
 }
 
+.conteudo{
+    flex-basis: 75%;
+    background-color: #F5F5F5;
+    padding-left: 30px;
+}
+
 .lateral{
     flex-basis: 25%;
     background-color: #FFB400;
@@ -12,24 +18,52 @@
     padding: 30px 20px;
 }
 
-.conteudo{
-    flex-basis: 75%;
-    background-color: #F5F5F5;
-    padding-left: 30px;
-}
-
 .lateral img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
-
 }
 
 .lateral div {
   text-align: left
 }
+
+.lateral ul {
+  list-style-type: none;
+  padding-left: 0;       
+  width: 90%;            
+}
+
+.lateral li {
+  margin-bottom: 15px;
+}
+
+.lateral li span {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px; 
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;     
+  overflow: hidden;       
+}
+
+.progress-value {
+  height: 100%; 
+  background-color: #ffffff; 
+  border-radius: 4px;
+  transition: width 1s ease-in-out; 
+}
+
 
 .stacks-container {
   display: flex;         
